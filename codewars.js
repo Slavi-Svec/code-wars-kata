@@ -9,11 +9,18 @@
 // otherwise	'Hello guest'
 // Answer:
 
-function greet (name, owner) {
-   if (name == owner) {
-   return"Hello boss"
-   }
-   return "Hello guest";
-   }
+function greet(name, owner) {
+   const greeting = name === owner ? 'Hello boss' : 'Hello guest'
+   console.log('name=', name, 'owner=', owner, 'greeting====', greeting)
 
- 
+   return greeting
+}
+
+//greet = (name, owner) => {
+  // return name === owner ? 'Hello boss' : 'Hello guest'
+//}
+
+greet('tim', 'sam')
+
+
+// TODO: re-write the greet fucntion with a ternary operator
