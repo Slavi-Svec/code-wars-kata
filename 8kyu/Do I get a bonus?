@@ -10,7 +10,7 @@ the fatcat did not make enough money and must receive only his stated salary.
 Return the total figure the individual will receive as a string prefixed with "£" 
 (= "\u00A3", JS, Go, and Java), "$" (C#, C++, Ruby, Clojure, Elixir, PHP and Python, Haskell, Lua) or "¥" (Rust).
 
-Answer: 
+//Solution: 
 
 function bonusTime(salary, bonus) {
     if (bonus === true) {
