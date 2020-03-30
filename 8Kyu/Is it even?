@@ -17,3 +17,7 @@ function testEven(n) {
 // Solution
 
 testEven = n => !(n%2) ? true : false;
+
+// or 
+
+testEven = n => n%2 ? false : true;
