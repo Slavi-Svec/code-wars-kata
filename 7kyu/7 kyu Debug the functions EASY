@@ -1,0 +1,42 @@
+Should be easy, begin by looking at the code. Debug the code and the functions should work.
+
+There are three functions:
+Multiplication (x)
+Addition (+)
+and
+Reverse (!esreveR)
+
+function multi(arr) {
+  return arr * arr;
+}
+function add(arr) {
+  return arr + arr;
+}
+function reverse(str) {
+  return str.reverse();
+}
+
+
+// Solution 
+
+multi = (arr) => {
+  let sum= 1;
+  for (let i=0; i<arr.length; i++) {
+        sum = sum * arr[i]
+  } 
+   return sum
+}
+add = (arr) => {
+  let sum= 0;
+  for (let i=0; i<arr.length; i++) {
+        sum = sum + arr[i]
+  }
+    return sum
+}
+reverse = (str) => {
+   let reversed = ""
+   for(let char of str){
+      reversed = char + reversed
+   }
+    return reversed
+}
